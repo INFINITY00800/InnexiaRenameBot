@@ -28,7 +28,7 @@ from Innexia.helper_funcs.help_Nekmo_ffmpeg import take_screen_shot
 from pyrogram.types import InlineKeyboardButton
 from pyrogram.types import InlineKeyboardMarkup
 from pyrogram.errors import UserNotParticipant, UserBannedInChannel 
-from pyrogram import Client as Mai_bOTs 
+from pyrogram import Client as sammy
 
 from hachoir.metadata import extractMetadata
 from hachoir.parser import createParser
