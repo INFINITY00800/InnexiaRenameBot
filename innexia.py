@@ -4,7 +4,7 @@ logging.basicConfig(level=logging.DEBUG,
 logger = logging.getLogger(__name__)
 logging.getLogger("pyrogram").setLevel(logging.WARNING)
 import os
-
+from . import Innexia
 if bool(os.environ.get("WEBHOOK", False)):
     from sample_config import Config
 else:
