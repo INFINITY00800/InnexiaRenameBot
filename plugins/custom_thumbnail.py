@@ -18,7 +18,7 @@ from pyrogram import Client as sammy
 
 import Innexia.database.database as sql
 from PIL import Image
-from database.database import *
+from Innexia.database.database import *
 
 
 @sammy.on_message(filters.photo)
